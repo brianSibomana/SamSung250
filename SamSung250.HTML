@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMSUNG250 SHOP</title>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+h2{
+    font-size: 30px;
+    line-height: 40px;
+    color: #333;
+}
+h4{
+    font-size: 20px;
+    color: #222;
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+.selector-p1{
+    padding: 40px 0;
+}
+.selector-m1{
+    margin: 40px 80;
+}
+body{
+    width: 100%;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 20px 80px;
+    background :#E3E6F3;
+     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+    z-index: 999; 
+    position: sticky;
+    top: 0;
+    left: 0;
+
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+     text-decoration:none;
+     font-size: 16px;
+     font-weight: 600;
+     color: #333; 
+     transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a:active {
+    color: #007bff;
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{   
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #007bff;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#pushma{
+  background-image: url("C:/Users/HP/Desktop/java/imgs/range-phones.jpeg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 80vh;
+width: 100%;
+padding: 0 80px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+color: aquamarine;
+}
+
+#pushma h4{ 
+    padding-bottom: 15px;
+}
+
+pushma h1{
+    color: aqua;
+}
+#pushma button{
+    color: #007bff;
+    border: 1px;
+    border-radius: 2px;
+    padding: 8px 8px 8px 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    font-weight: 700;
+    font-size: 12px;
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#feature .fe-box{
+    width: 100px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}
+
+ 
+
+
+    </style>
+</head>
+<body>
+  <section id="header">
+    <a href="#"><img src="C:\Users\HP\Desktop\java\FGFG.png" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="SamSung250.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="contacy.html">Contact</a></li>
+            <li><a href="cart.html"><i class="fa-duotone fa-thin fa-bags-shopping"></i></a></li>
+        </ul>
+    </div>
+  </section>
+  <section id="pushma">
+    <h4>Shop-in-offer</h4>
+    <h2>Super value deals </h2>
+    <h1>On all products</h1>
+    <p>Save more with coupons & up to 70% off!</p>
+    <button>Shop now</button>
+  </section>
+
+
+   <section id="feature" class="selector-p1">
+    <div class="fe-box">
+       <img src="C:\Users\HP\Desktop\java\imgs\free.png" alt="">
+       <h6>Free shipping</h6>
+    </div>
+
+       <div class="fe-box">
+       <img src="C:\Users\HP\Desktop\java\imgs\on.png" alt="">
+       <h6>On sale</h6>
+    </div>
+
+       <div class="fe-box">
+       <img src="C:\Users\HP\Desktop\java\imgs\col.png" alt="">
+       <h6> Collection</h6>
+    </div>
+
+       <div class="fe-box">
+       <img src="C:\Users\HP\Desktop\java\imgs\hap.png" alt="">
+       <h6>Happy shopping</h6>
+    </div>
+
+       <div class="fe-box">
+       <img src="C:\Users\HP\Desktop\java\imgs\how-to-maximize-promotion-extensions-1600x840-605dff0748aee-1280x720.png"alt="">
+       <h6>Promotions</h6>
+    </div>
+
+       <div class="fe-box">
+       <img src="C:\Users\HP\Desktop\java\imgs\support.png" alt="">
+       <h6>Customer Support</h6>
+    </div>
+
+      </section> 
+
+
+    <script src="Sam JS.js"></script>
+</body>
+</html>
